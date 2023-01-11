@@ -1,0 +1,20 @@
+package String0p;
+import java.util.Scanner;
+
+public class JavaString {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+String a1,a2;
+Scanner sc=new Scanner(System.in);
+System.out.println("enter 2 strings");
+a1=sc.nextLine();
+a2=sc.nextLine();
+String a3 = a1 + a2;
+System.out.println("result of concatenation is: " + a3);
+}
+	public static String addition() {
+		return "Amar";
+	}
+
+}
