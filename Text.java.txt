@@ -1,0 +1,23 @@
+import java.util.List;
+
+/**
+ * 
+ */
+
+/**
+ * @author amar2
+ *
+ */
+public class FirstList {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+	List<String> words= List.of("Ball","bat","cat");	
+	words.size();
+	System.out.println("enter words  size");
+
+	}
+
+}
